@@ -1,0 +1,130 @@
+.tableBox {
+  padding: 50px;
+}
+
+.tableHeader {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.entries,
+.sortBy {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.entries,
+.sortBy,
+.entries select,
+.sortBy select {
+  height: 100%;
+  margin: 0 10px;
+  background-color: transparent;
+}
+
+.entries select,
+.sortBy select {
+  width: 60px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.searchUser,
+.searchUser input {
+  width: 200px;
+  height: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.searchUser input {
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.newMovie {
+  width: 130px;
+  height: 45px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.newMovie:hover {
+  color: #e50914;
+}
+
+.movieTable {
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieTable table {
+  width: 100%;
+  border-radius: 5px;
+  border-collapse: collapse;
+  font-weight: bold;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.movieTable th {
+  /* width: 150px; */
+  border: 1px solid lightgrey;
+  padding: 5px;
+  background-color: #000;
+  color: #e50914;
+}
+
+.moviePoster {
+  max-height: 160px;
+  max-width: 100px;
+}
+
+.movieTable tr {
+  border-top: 1px solid lightgrey;
+  height: 60px;
+}
+.movieTable tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+.movieTable tr:nth-child(even) {
+  background-color: white;
+}
+.movieTable td {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.tableFoot {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.pagination {
+  padding: 0 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}

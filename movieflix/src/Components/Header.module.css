@@ -1,0 +1,82 @@
+input:focus {
+  outline: none;
+}
+
+.headerBox {
+  width: 100%;
+  height: 70px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 32px;
+  background-color: #000;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}
+
+.btns {
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 100px;
+  height: 40px;
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.btns:hover {
+  border-color: #e50914;
+  color: #e50914;
+}
+
+.active {
+  border-color: #e50914;
+  color: #e50914;
+}
+
+.searchBox {
+  width: 280px;
+  height: 38px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.searchBox:hover {
+  border-color: white;
+}
+
+.searchBox input {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #161616;
+}
+
+.admin {
+  border-radius: 0;
+}
+
+.admin:hover {
+  border-color: white;
+  background-color: white;
+  color: black;
+}

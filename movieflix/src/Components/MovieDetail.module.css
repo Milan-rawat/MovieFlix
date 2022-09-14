@@ -1,0 +1,65 @@
+.detailsPage {
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+  background-color: black;
+}
+
+.header {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.header .btn {
+  width: 60px;
+  font-size: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.header .btn:hover {
+  border: 1px solid #e50914;
+}
+
+.bodyPart {
+  width: 100%;
+  display: flex;
+}
+
+.imageContainer {
+  width: 45%;
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+
+.imageContainer img {
+  /* min-width: 75%; */
+  min-height: 80%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.detailsContainer {
+  width: 50%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 72px;
+  color: #e50914;
+  margin-left: 100px;
+}
+
+.desc {
+  font-size: 32px;
+  color: white;
+  margin: 10px 0 10px 100px;
+}

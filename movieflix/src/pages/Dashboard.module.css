@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .header .btn {
+    width: 60px;
+    font-size: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .header .btn:hover {
+    border: 1px solid #e50914;
+  }

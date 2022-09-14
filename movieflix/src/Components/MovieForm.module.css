@@ -1,0 +1,51 @@
+.formBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.form {
+  width: 500px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 40px;
+}
+
+.formInput{
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.formInput label {
+  width: 40%;
+}
+
+.formInput input,
+.formInput textarea, .formInput select {
+  width: 60%;
+  height: 35px;
+  padding: 5px 10px;
+}
+
+.addBtn {
+  width: 100%;
+  height: 45px;
+  background-color: #191919;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.addBtn:hover {
+  background-color: black;
+  box-shadow: 2px 1px 4px black;
+  color: #e50914;
+}
